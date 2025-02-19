@@ -1,19 +1,11 @@
-import './App.css'
-//import HomePage from '../src/pages/HomePage.jsx';
-//import AboutUsPage from '../src/pages/AboutUsPage.jsx';
-import BlogPage from '../src/pages/BlogPage.jsx';
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import { AppRouter } from "./Router";
 
-
-function App() {
-
+export default function App() {
   return (
-    <>
-{/*   <HomePage></HomePage>
-      <AboutUsPage></AboutUsPage>*/}  
-      <BlogPage></BlogPage>
-
-     </>
-  )
+    <Router>
+      <AppRouter />
+    </Router>
+  );
 }
-
-export default App
