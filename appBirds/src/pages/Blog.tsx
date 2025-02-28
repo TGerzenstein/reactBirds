@@ -79,7 +79,7 @@ export const Blog = () => {
                 </time>
                 <a
                   href={post.category.href}
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  className="relative z-10 rounded-full ring-1 ring-gray-900/10 hover:ring-gray-900/20 bg-gray-50 px-3 py-1.5 font-medium text-indigo-600 hover:bg-gray-100"
                 >
                   {post.category.title}
                 </a>
